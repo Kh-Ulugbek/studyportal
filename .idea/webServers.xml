@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="90e7348e-79cc-4a6d-8e92-d09b3ac80e1e" name="study" url="http://new.studyportal.uz/">
+        <fileTransfer rootFolder="/domains/new.studyportal.uz/public_html" host="new.studyportal.uz" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
