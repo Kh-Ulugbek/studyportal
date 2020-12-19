@@ -3,6 +3,7 @@
 return [
 
     'failed' => 'Incorrect login or password',
+    'login' => 'Login',
     'throttle' => 'too many login attempts. Please try again later',
     'header' => [
         'login' => 'Login',

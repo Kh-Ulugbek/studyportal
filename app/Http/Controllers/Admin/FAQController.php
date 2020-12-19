@@ -58,7 +58,11 @@ class FAQController extends HomeController
         }
         $faq = new Faq;
         $faq->question = $request->question;
+        $faq->question_en = $request->question_en;
+        $faq->question_uz = $request->question_uz;
         $faq->answer = $request->answer;
+        $faq->answer_en = $request->answer_en;
+        $faq->answer_uz = $request->answer_uz;
         $faq->subject_id = $request->subject_id;
         $faq->save();
 

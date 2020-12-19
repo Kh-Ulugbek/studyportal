@@ -3,6 +3,7 @@
 return [
 
     'failed' => "parol yoki login noto'g'ri terilgan",
+    'login' => "Login",
     'throttle' => "Kirish uchun ko'p urinish qilindi. Iltimos keyinroq qayta urinib ko'ring",
     'header' => [
         'login' => 'kirish',

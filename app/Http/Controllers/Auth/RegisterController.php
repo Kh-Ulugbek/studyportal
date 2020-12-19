@@ -7,7 +7,9 @@ use App\Models\userData;
 use App\Providers\RouteServiceProvider;
 use App\Models\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Validator;
 
 class RegisterController extends Controller
@@ -80,8 +82,15 @@ class RegisterController extends Controller
 
     public function showRegistrationForm()
     {
+        $availableLocales = ['ru', 'en', 'uz'];
+        $locale = Session::get('locale');
+        if (!in_array($locale, $availableLocales)){
+            $locale = config('app.locale');
+        }
+        Session::put('locale', $locale);
+        App::setLocale($locale);
         $head = view('head')->with('page_title', 'Регистрация пользователя');
-        $view = view('auth.register_page')->with('head',$head);
+        $view = view('auth.register_page')->with('head',$head)->with('locale', $locale);
         return $view;
     }
     

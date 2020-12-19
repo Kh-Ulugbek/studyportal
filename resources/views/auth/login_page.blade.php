@@ -13,12 +13,12 @@
                 <h2>@lang('auth.login_page.personal_cabinet')</h2>
                 <div class="inputs-form">
                     <i class="fas fa-user-graduate"></i>
-                    <label for="name">Логин</label>
+                    <label for="name">@lang('auth.login')</label>
                     <input id="name" type="text" class="@error('login') is-invalid @enderror" name="login" value="{{ old('login') }}" required autocomplete="login" autofocus>
                 </div>
                 <div class="inputs-form last">
                     <i class="fas fa-unlock-alt"></i>
-                    <label for="password">Пароль</label>
+                    <label for="password">@lang('auth.register_page.password')</label>
                     <input id="password" type="password" class="@error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
                 </div>
                 @if ($errors->any())

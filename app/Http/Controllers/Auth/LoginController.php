@@ -5,6 +5,8 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Support\Facades\App;
+use Illuminate\Support\Facades\Session;
 
 class LoginController extends Controller
 {
@@ -45,6 +47,13 @@ class LoginController extends Controller
 
     public function showLoginForm()
     {
+        $availableLocales = ['ru', 'en', 'uz'];
+        $locale = Session::get('locale');
+        if (!in_array($locale, $availableLocales)){
+            $locale = config('app.locale');
+        }
+        Session::put('locale', $locale);
+        App::setLocale($locale);
         $head = view('head')->with('page_title', 'Вход в личный кабинет');
         $view = view('auth.login_page')->with('head',$head);
         return $view;
