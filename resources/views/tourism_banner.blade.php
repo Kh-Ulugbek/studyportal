@@ -10,7 +10,7 @@
         <div>
             <a href="{{route('tourism.region', $region->slug)}}">
                 <img src="{{asset($path)}}/{{$region->image}}">
-                <span>{{$region->name}}</span>
+                <span>{{$region->__('name')}}</span>
             </a>
         </div>
         @endforeach

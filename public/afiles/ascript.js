@@ -216,6 +216,8 @@ $(document).ready(function(){
         let name = card_content.find('#region-name').html();
         let title = card_content.find('#region-title').html();
         let description = card_content.find('#region-description').html();
+        let description_en = card_content.find('#region-description_en').html();
+        let description_uz = card_content.find('#region-description_uz').html();
         let image = card_content.find('img').attr('src');
 
         let form = modal.find('form');
@@ -224,7 +226,9 @@ $(document).ready(function(){
         modal.find("img").attr('src', image);
         modal.find("input[name='name']").val(name);
         modal.find("input[name='title']").val(title);
-        modal.find("textarea").text(description);
+        modal.find("textarea[name='description']").text(description);
+        modal.find("textarea[name='description_en']").text(description_en);
+        modal.find("textarea[name='description_uz']").text(description_uz);
     });
 
     $('#deleteRegionForm').on('show.bs.modal', function (event) {
@@ -427,8 +431,12 @@ $(document).ready(function(){
         let button = $(event.relatedTarget); // Кнопка, что спровоцировало модальное окно
         let id = button.data('id');
         let name = button.parent().parent().find('h6').html();
+        let name_en = button.parent().parent().find('h5').html();
+        let name_uz = button.parent().parent().find('h4').html();
         let form = modal.find('form');
         form.find('input[name="name"]').val(name);
+        form.find('input[name="name_en"]').val(name_en);
+        form.find('input[name="name_uz"]').val(name_uz);
         let action = form.attr('action');
         form.attr('action', action.substring(0,action.lastIndexOf('/')+1) + id);
         let image = $('#faculty-image' + '-' + id).attr('src');
@@ -443,13 +451,16 @@ $(document).ready(function(){
         let button = $(event.relatedTarget); // Кнопка, что спровоцировало модальное окно
         let id = button.data('id');
         let name = button.parent().parent().find('h6').html();
+        let name_en = button.parent().parent().find('h5').html();
+        let name_uz = button.parent().parent().find('h4').html();
         let form = modal.find('form');
         form.find('input[name="name"]').val(name);
+        form.find('input[name="name_en"]').val(name_en);
+        form.find('input[name="name_uz"]').val(name_uz);
         let action = form.attr('action');
         form.attr('action', action.substring(0,action.lastIndexOf('/')+1) + id);
         let image = $('#type-image' + '-' + id).attr('src');
         $('#modal-type-image').attr('src', image);
-
     });
 
     $('#addProgramForm').on('show.bs.modal', function(event){

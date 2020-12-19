@@ -10,13 +10,12 @@
                     @if (isset($burgers) && count($burgers) > 0)
                         @foreach($burgers as $burger)
                             <li>
-                                <a href="@if (Route::has($burger->link)){{route($burger->link)}} @else {{$burger->link}} @endif">{{$burger->name}}</a>
+                                <a href="@if (Route::has($burger->link)){{route($burger->link)}} @else {{$burger->link}} @endif">{{$burger->__('name')}}</a>
                             </li>
                         @endforeach
                     @endif
                 </ul>
             </div>
-
             <ul class="ul-main">
                 @foreach($categories as $key => $category)
                     @if ($key == 3)
@@ -45,11 +44,10 @@
                                         <span><a href="{{route('country.show',$country->slug )}}">@lang('main.all-countries')</a></span>
                                     @elseif ($category->id == 21)
                                         @foreach($programTypes as $programType)
-                                            <a href="{{route('university.index')}}">{{$programType->name}}</a>
+                                            <a href="{{route('university.index')}}">{{$programType->__('name')}}</a>
                                         @endforeach
                                         <span><a href="{{route('university.index')}}">@lang('main.filter')</a></span>
                                     @else
-
                                         @set($s, $category->subcategory->count()-1)
                                         @foreach($category->subcategory as $n=>$sub)
                                             @if ($n==$s)

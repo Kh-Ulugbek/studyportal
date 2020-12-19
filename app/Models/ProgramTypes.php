@@ -2,12 +2,13 @@
 
 namespace App\Models;
 
+use App\Models\Traits\Translatable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class ProgramTypes extends Model
 {
-    use HasFactory;
+    use HasFactory, Translatable;
     protected $guarded = ['id'];
 
     public function programs(){

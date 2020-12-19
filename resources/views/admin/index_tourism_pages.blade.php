@@ -18,6 +18,8 @@
                            Заголовок: <span id="region-title" class="h5">{{$region->title}}</span>
                             <div class="text-muted text-justify mt-1">
                                 <small id="region-description">{{$region->description}}</small>
+                                <small hidden id="region-description_en">{{$region->description_en}}</small>
+                                <small hidden id="region-description_uz">{{$region->description_uz}}</small>
                             </div>
                         </div>
                         <div class="card-header">
@@ -74,18 +76,44 @@
                         <input type="file" class="form-control" name="image" accept="image/*">
                         <small class="text-muted">Если не надо менять картинку, оставьте это поле пустым</small>
                     </div>
-                    <label for="name">Наименование: </label>
+                    <label for="name">Наименование(ru): </label>
                     <div class="form-group">
                         <input type="text" class="form-control" name="name" id="name" value="{{$region->name}}">
                     </div>
-                    <label for="title">Заголовок: </label>
+                    <label for="name">Наименование(en): </label>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name_en" id="name" value="{{$region->name_en}}">
+                    </div>
+                    <label for="name">Наименование(uz): </label>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name_uz" id="name" value="{{$region->name_uz}}">
+                    </div>
+                    <label for="title">Заголовок(ru): </label>
                     <div class="form-group">
                         <input type="text" class="form-control" name="title" id="title" value="{{$region->title}}">
                     </div>
-                    <label for="description">Описание: </label>
+                    <label for="title">Заголовок(en): </label>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="title_en" id="title" value="{{$region->title_en}}">
+                    </div>
+                    <label for="title">Заголовок(uz): </label>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="title_uz" id="title" value="{{$region->title_uz}}">
+                    </div>
+                    <label for="description">Описание(ru): </label>
                     <div class="form-group">
                         <textarea name="description" id="description" class="form-control"
                                   rows="4">{!! $region->description !!}</textarea>
+                    </div>
+                    <label for="description">Описание(en): </label>
+                    <div class="form-group">
+                        <textarea name="description_en" id="description" class="form-control"
+                                  rows="4">{!! $region->description_en !!}</textarea>
+                    </div>
+                    <label for="description">Описание(uz): </label>
+                    <div class="form-group">
+                        <textarea name="description_uz" id="description" class="form-control"
+                                  rows="4">{!! $region->description_uz !!}</textarea>
                     </div>
 
                 </div>
@@ -121,17 +149,41 @@
                         <input type="file" class="form-control"  id="image" name="image" accept="image/*">
                         <small class="text-muted">Если не надо менять картинку, оставьте это поле пустым</small>
                     </div>
-                    <label for="name">Наименование: </label>
+                    <label for="name">Наименование(ru): </label>
                     <div class="form-group">
                         <input type="text" class="form-control" name="name" id="name" required>
                     </div>
-                    <label for="title">Заголовок: </label>
+                    <label for="name">Наименование(en): </label>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name_en" id="name" >
+                    </div>
+                    <label for="name">Наименование(uz): </label>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name_uz" id="name" >
+                    </div>
+                    <label for="title">Заголовок(ru): </label>
                     <div class="form-group">
                         <input type="text" class="form-control" name="title" id="title" required>
                     </div>
-                    <label for="description">Описание: </label>
+                    <label for="title">Заголовок(en): </label>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="title_en" id="title">
+                    </div>
+                    <label for="title">Заголовок(uz): </label>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="title_uz" id="title">
+                    </div>
+                    <label for="description">Описание(ru): </label>
                     <div class="form-group">
                         <textarea name="description" id="description" class="form-control" rows="4" required></textarea>
+                    </div>
+                    <label for="description">Описание(en): </label>
+                    <div class="form-group">
+                        <textarea name="description_en" id="description" class="form-control" rows="4"></textarea>
+                    </div>
+                    <label for="description">Описание(uz): </label>
+                    <div class="form-group">
+                        <textarea name="description_uz" id="description" class="form-control" rows="4"></textarea>
                     </div>
 
                 </div>

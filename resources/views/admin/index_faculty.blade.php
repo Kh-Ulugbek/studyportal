@@ -13,6 +13,8 @@
                         </div>
                         <div class="col-8">
                             <h6>{{$faculty->name}}</h6>
+                            <h5 hidden>{{$faculty->name_en}}</h5>
+                            <h4 hidden>{{$faculty->name_uz}}</h4>
                             <div class="card-btns d-flex">
                                 <button title="Редактировать" type="button" data-id="{{$faculty->id}}" class="btn btn-icon btn-primary  mr-1 mb-1 waves-effect waves-light" data-toggle="modal" data-target="#editFacultyForm">
                                     <i class="feather icon-edit"></i>
@@ -65,9 +67,17 @@
                     <div class="form-group">
                         <input type="file" class="form-control" name="icon" accept="image/*">
                     </div>
-                    <label>Название: </label>
+                    <label>Название(ru): </label>
                     <div class="form-group">
                         <input type="text" class="form-control" name="name" required>
+                    </div>
+                    <label>Название(en): </label>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name_en">
+                    </div>
+                    <label>Название(uz): </label>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name_uz">
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -112,9 +122,17 @@
                     <div class="form-group">
                         <input type="file" class="form-control" name="icon" accept="image/*">
                     </div>
-                    <label>Название: </label>
+                    <label>Название(ru): </label>
                     <div class="form-group">
                         <input type="text" class="form-control" name="name" required>
+                    </div>
+                    <label>Название(en): </label>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name_en">
+                    </div>
+                    <label>Название(uz): </label>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name_uz">
                     </div>
                 </div>
                 <div class="modal-footer">

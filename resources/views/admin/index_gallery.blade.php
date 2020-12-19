@@ -72,7 +72,7 @@
                     <label>Имя(ru): </label>
                     <div class="form-group">
                         <input type="text" placeholder="Имя" class="form-control" name="name"
-                               value="{{$gallery->name}}">
+                               value="{{$gallery->name}}" required>
                     </div>
                     <label>Имя(en): </label>
                     <div class="form-group">

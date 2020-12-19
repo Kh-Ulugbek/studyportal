@@ -69,6 +69,8 @@ class ProgramTypesController extends HomeController
         }
 
         $type->name = $request->name;
+        $type->name_en = $request->name_en;
+        $type->name_uz = $request->name_uz;
         $type->save();
         return redirect()->back();
     }
@@ -128,6 +130,8 @@ class ProgramTypesController extends HomeController
             $type->image = $newFileName;
         }
         $type->name = $request->name;
+        $type->name_en = $request->name_en;
+        $type->name_uz = $request->name_uz;
         $type->update();
         return redirect()->back();
     }

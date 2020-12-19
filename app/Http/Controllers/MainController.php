@@ -57,7 +57,7 @@ class MainController extends Controller
         $footer->col2 = json_decode($footer->col2);
         $footer->col3 = json_decode($footer->col3);
         $this->vars['footer'] = view('footer')->
-        with(['company' => $this->vars['company'], 'social_icons' => $this->vars['social_icons'], 'footer' => $footer])
+        with(['company' => $this->vars['company'], 'social_icons' => $this->vars['social_icons'], 'footer' => $footer, 'locale'=> $locale])
             ->render();
     }
 

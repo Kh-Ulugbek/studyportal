@@ -17,6 +17,7 @@ Route::get('/clear-cache', function() {
     $exitCode = Artisan::call('config:cache');
     return 'DONE'; //Return anything
 });
+
 Route::middleware(['set_locale'])->group(function (){
 
     Route::get('/locale/{locale}', [App\Http\Controllers\IndexController::class, 'locale'])->name('locale')

@@ -63,9 +63,17 @@ class TourismController extends HomeController
             $tourism->image = $newFileName;
         }
         $tourism->title = $data['title'];
+        $tourism->title_en = $data['title_en'];
+        $tourism->title_uz = $data['title_uz'];
         $tourism->intro = $data['intro'];
+        $tourism->intro_en = $data['intro_en'];
+        $tourism->intro_uz = $data['intro_uz'];
         $tourism->description = $data['description'];
+        $tourism->description_en = $data['description_en'];
+        $tourism->description_uz = $data['description_uz'];
         $tourism->text = $data['text'];
+        $tourism->text_en = $data['text_en'];
+        $tourism->text_uz = $data['text_uz'];
         $tourism->update();
         return redirect()->back();
     }

@@ -4,6 +4,7 @@
         <img class="logo" src="{{asset('images/logo.png')}}">
     </a>
     <ul>
+{{--        @dd($mob_menu_items)--}}
         @if (isset($mob_menu_items) && count($mob_menu_items) > 0)
             @foreach($mob_menu_items as $mob_menu_item)
         <li>

@@ -16,25 +16,63 @@
                                 <label>Картинка: </label>
                                 <input type="file" placeholder="Ссылка" class="form-control" name="image" accept="image/*">
                                 <p><small class="text-muted">Если не надо менять картинку, оставьте это поле пустым</small></p>
-                                <label>Заголовок: </label>
+                                <label>Заголовок(ru): </label>
                                 <div class="form-group">
                                     <input type="text" class="form-control" name="title" value="{{$tourism->title}}">
                                 </div>
-                                <label for="intro">Интро: </label>
+                                <label>Заголовок(en): </label>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="title_en" value="{{$tourism->title_en}}">
+                                </div>
+                                <label>Заголовок(uz): </label>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="title_uz" value="{{$tourism->title_uz}}">
+                                </div>
+                                <label for="intro">Интро(ru): </label>
                                 <div class="form-group">
                                     <textarea class="form-control" name="intro" id="intro"
                                               rows="3">{{$tourism->intro}}</textarea>
+                                </div>
+                                <label for="intro">Интро(en): </label>
+                                <div class="form-group">
+                                    <textarea class="form-control" name="intro_en" id="intro"
+                                              rows="3">{{$tourism->intro_en}}</textarea>
+                                </div>
+                                <label for="intro">Интро(uz): </label>
+                                <div class="form-group">
+                                    <textarea class="form-control" name="intro_uz" id="intro"
+                                              rows="3">{{$tourism->intro_uz}}</textarea>
                                 </div>
                                 <label for="description">Описание: </label>
                                 <div class="form-group">
                                     <textarea class="form-control" name="description" id="description"
                                               rows="3">{{$tourism->description}}</textarea>
                                 </div>
+                                <label for="description">Описание(en): </label>
+                                <div class="form-group">
+                                    <textarea class="form-control" name="description_en" id="description"
+                                              rows="3">{{$tourism->description_en}}</textarea>
+                                </div>
+                                <label for="description">Описание(uz): </label>
+                                <div class="form-group">
+                                    <textarea class="form-control" name="description_uz" id="description"
+                                              rows="3">{{$tourism->description_uz}}</textarea>
+                                </div>
 
-                                <label for="text">Текст: </label>
+                                <label for="text">Текст(ru): </label>
                                 <div class="form-group">
                                     <textarea class="form-control" name="text" id="text"
                                               rows="3">{{$tourism->text}}</textarea>
+                                </div>
+                                <label for="text">Текст(en): </label>
+                                <div class="form-group">
+                                    <textarea class="form-control" name="text_en" id="text"
+                                              rows="3">{{$tourism->text_en}}</textarea>
+                                </div>
+                                <label for="text">Текст(uz): </label>
+                                <div class="form-group">
+                                    <textarea class="form-control" name="text_uz" id="text"
+                                              rows="3">{{$tourism->text_uz}}</textarea>
                                 </div>
 
                                 <div class="row mt-2">

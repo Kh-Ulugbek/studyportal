@@ -5,10 +5,10 @@
                 <img src="{{asset('images')}}/tatar.png" class="uzor">
                 <div class="inner">
                     <h6>
-                    {{$section->title}}
+                    {{$section->__('title')}}
                     </h6>
                     <p>
-                        {{$section->intro}}
+                        {{$section->__('intro')}}
                     </p>
                 </div>
             </div>
@@ -21,10 +21,10 @@
         <div class="info">
             <div class="bg"></div>
             <p>
-                {{$section->description}}
+                {{$section->__('description')}}
             </p>
             <p>
-                {{$section->text}}
+                {{$section->__('text')}}
             </p>
         </div>
     </div>

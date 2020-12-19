@@ -18,7 +18,7 @@ return [
     'gb' => 'GB',
     'look_through' => 'varaqlash',
     'get_consultation' => 'maslahat olish',
-    'contacts' => 'Kontaktlar',
+    'contacts' => "Bog'lanish",
     'often_questions' => "Ko'p beriladigan savollar",
     'foreign_science' => "Chet el tadqiqotlari haqida ko'proq bilmoqchimisiz? Yoki Evropada ish topish uchun eng
                           yaxshi maslahatlar qidirmoqdamisiz?. Bizning blogimiz sizga foydali 

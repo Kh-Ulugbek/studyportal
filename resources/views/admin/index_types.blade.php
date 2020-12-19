@@ -6,6 +6,8 @@
                     <img id="type-image-{{$type->id}}" class="card-img-top img-fluid" src="{{asset($path)}}/{{$type->image}}">
                     <div class="card-body">
                                 <h6>{{$type->name}}</h6>
+                                <h5 hidden>{{$type->name_en}}</h5>
+                                <h4 hidden>{{$type->name_uz}}</h4>
                                 <div class="card-btns d-flex">
                                     <button title="Редактировать" type="button" data-id="{{$type->id}}" class="btn btn-icon btn-primary  mr-1 waves-effect waves-light" data-toggle="modal" data-target="#editTypeForm">
                                         <i class="feather icon-edit"></i>
@@ -49,9 +51,17 @@
                     <div class="form-group">
                         <input type="file" class="form-control" name="image" accept="image/*">
                     </div>
-                    <label>Название: </label>
+                    <label>Название(ru): </label>
                     <div class="form-group">
                         <input type="text" class="form-control" name="name" required>
+                    </div>
+                    <label>Название(en): </label>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name_en">
+                    </div>
+                    <label>Название(uz): </label>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name_uz">
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -90,9 +100,17 @@
                     <div class="form-group">
                         <input type="file" class="form-control" name="image" accept="image/*">
                     </div>
-                    <label>Наименование: </label>
+                    <label>Наименование(ru): </label>
                     <div class="form-group">
-                        <input type="text" class="form-control" name="name" required>
+                        <input type="text" class="form-control" name="name" required value="{{ $type->name }}">
+                    </div>
+                    <label>Наименование(en): </label>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name_en" value="{{ $type->name_en }}">
+                    </div>
+                    <label>Наименование(uz): </label>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name_uz" value="{{ $type->name_uz }}">
                     </div>
                 </div>
                 <div class="modal-footer">

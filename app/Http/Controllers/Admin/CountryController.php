@@ -169,7 +169,7 @@ class CountryController extends HomeController
             $info->delete();
         }
 
-        $country->faqs()->dedele();
+        $country->faqs()->delete();
 
         $country->delete(); // Удаляем запись из БД
         return redirect()->back();

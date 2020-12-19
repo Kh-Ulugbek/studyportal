@@ -6,12 +6,12 @@
             <div class="item in">
                 <img src="{{asset('images')}}/{{$global_track->ico1}}">
                 <span class="numbers">{{$global_track->num1}}+</span>
-                <p>{{$global_track->subt1}}</p>
+                <p>{{$global_track->__('subt1')}}</p>
             </div>
             <div class="item in">
                 <img src="{{asset('images')}}/{{$global_track->ico2}}">
                 <span class="numbers">{{$global_track->num2}}+</span>
-                <p>{{$global_track->subt2}}</p>
+                <p>{{$global_track->__('subt2')}}</p>
             </div>
         </div>
     </div>

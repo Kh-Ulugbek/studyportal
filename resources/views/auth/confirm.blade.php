@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+{!! $head !!}
+<body>
+
+<div class="authorization">
+    <div class="form-auth form-login row">
+        <div class="content-form col-5">
+            <a href="index.html"><img class="logo" src="images/logo.png"></a>
+            <form class="confirm-form">
+                <h2>Вход в личный кабинет</h2>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 289.658 289.658" enable-background="new 0 0 289.658 289.658" width="82px" height="109px"><g><path d="m245.758,128.041h-14.217v-41.329c0-47.813-38.899-86.712-86.712-86.712-47.813,0-86.712,38.899-86.712,86.712v41.329h-14.217c-8.285,0-15.001,6.716-15.001,15.001v131.613c0,8.285 6.716,15.002 15.001,15.002h201.858c8.285,0 15.002-6.716 15.002-15.002v-131.612c0-8.285-6.717-15.002-15.002-15.002zm-151.221-41.329c0-27.731 22.561-50.292 50.292-50.292 27.731,0 50.292,22.561 50.292,50.292v41.329h-100.584v-41.329zm66.64,127.127v26.904c0,9.029-7.319,16.348-16.348,16.348-9.029,0-16.348-7.319-16.348-16.348v-26.904c-6.081-4.824-9.986-12.272-9.986-20.638 0-14.544 11.79-26.335 26.334-26.335 14.544,0 26.334,11.791 26.334,26.335 2.84217e-14,8.366-3.905,15.815-9.986,20.638z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#0099FF"/></g> </svg>
+                <button class="confirm-button">Пожалуйста подтвердите ваш E-mail</button>
+                <a href="#/" class="send-again">Отправить еще раз</a>
+            </form>
+            <div class="link-bottom">
+                Вернуться на <a href="{{ route('index') }}">Главную страницу</a>
+            </div>
+        </div>
+        <div class="content-form col-7">
+            <div class="controllers-reviews-b">
+                <div class="left">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                <div class="right">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="slider-form">
+                <div class="slide-1">
+                    <h2>Мы позволим вашей мечте осуществиться.</h2>
+                    <p>
+                        -Найдите свою идеальную школу или программу с нашим подходящим инструментом
+                    </p>
+                </div>
+                <div class="slide-2">
+                    <h2>Вы достойны самого лучшего</h2>
+                    <p>
+                        -Встречайте школы на всемирных мероприятиях
+                    </p>
+                </div>
+                <div class="slide-3">
+                    <h2>Мы показали свое превосходство в приеме студентов  в лучшие международные университеты.</h2>
+                    <p>
+                        -Общайтесь с другими студентами на наших форумах
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="slick/slick.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

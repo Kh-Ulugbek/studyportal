@@ -1,16 +1,16 @@
 <div class="content-region-info">
     <div class="row">
         <div class="col-6">
-            <h2>{{$region->title}}</h2>
+            <h2>{{$region->__('title')}}</h2>
             <p>
-                {{$region->description}}
+                {{$region->__('description')}}
             </p>
             <div class="cards">
                 @foreach($others as $key=>$other)
                 <div>
                     <a href="{{route('tourism.region', $other->slug)}}">
                         <img src="{{asset($path)}}/{{ ($key%3 == 0)?'uzor-s.png':(($key%3 == 1)?'uzor-x.png':(($key%3 == 2)?'uzor-a.png':''))}}">
-                        <span>{{$other->name}}</span>
+                        <span>{{$other->__('name')}}</span>
                     </a>
                 </div>
                 @endforeach

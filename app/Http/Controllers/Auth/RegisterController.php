@@ -84,4 +84,5 @@ class RegisterController extends Controller
         $view = view('auth.register_page')->with('head',$head);
         return $view;
     }
+    
 }

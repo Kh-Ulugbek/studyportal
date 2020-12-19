@@ -60,8 +60,14 @@ class TourismPagesController extends HomeController
             $region->image = $newFileName;
         }
         $region->name = $data['name'];
+        $region->name_en = $data['name_en'];
+        $region->name_uz = $data['name_uz'];
         $region->title = $data['title'];
+        $region->title_en = $data['title_en'];
+        $region->title_uz = $data['title_uz'];
         $region->description = $data['description'];
+        $region->description_en = $data['description_en'];
+        $region->description_uz = $data['description_uz'];
         $region->save();
         return redirect()->back();
 
@@ -102,8 +108,14 @@ class TourismPagesController extends HomeController
             $region->image = $newFileName;
         }
         $region->name = $data['name'];
+        $region->name_en = $data['name_en'];
+        $region->name_uz = $data['name_uz'];
         $region->title = $data['title'];
+        $region->title_en = $data['title_en'];
+        $region->title_uz = $data['title_uz'];
         $region->description = $data['description'];
+        $region->description_en = $data['description_en'];
+        $region->description_uz = $data['description_uz'];
         $region->update();
         return redirect()->back();
 

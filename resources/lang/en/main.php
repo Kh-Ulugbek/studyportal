@@ -18,7 +18,7 @@ return [
     'gb' => 'GB',
     'look_through' => 'Flip through',
     'get_consultation' => 'to get a consultation',
-    'contacts' => 'Контакты',
+    'contacts' => 'Contacts',
     'often_questions' => 'Frequently asked questions',
     'foreign_science' => 'Want to know more about foreign research? Or looking for,
     the best tips to find a job in Europe? Our blog is here

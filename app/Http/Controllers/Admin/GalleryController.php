@@ -113,18 +113,21 @@ class GalleryController extends HomeController
      */
     public function update(Request $request, $id)
     {
+
         $gallery = Gallery::findOrFail($id);
         $path = public_path().$this->imgdir;
-        $validator = Validator::make($request->all(), [
-            'name' => 'required|max:255',
-            'image' => 'required|image',
-        ]);
 
-        if ($validator->fails()) {
-            return redirect()->back()
-                ->withErrors($validator)
-                ->withInput();
-        }
+//        $validator = Validator::make($request->all(), [
+//            'name' => 'required|max:255',
+//            'image' => 'required|image',
+//        ]);
+
+//        if ($validator->fails()) {
+//            return redirect()->back()
+//                ->withErrors($validator)
+//                ->withInput();
+//        }
+
         $data = $request->except(['_token', '_method']);
 
         if ($request->hasFile('image')){

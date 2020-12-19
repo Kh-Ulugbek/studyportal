@@ -167,7 +167,7 @@
                                 <div class="item"
                                      style="background: url({{asset('/images/filters/')}}/{{$faculty->image}});">
                                     <img src="{{asset('/images/filters/icons')}}//{{$faculty->icon}}">
-                                    <p>{{$faculty->name}}</p>
+                                    <p>{{$faculty->__('name')}}</p>
                                 </div>
                             @endforeach
                         </div>

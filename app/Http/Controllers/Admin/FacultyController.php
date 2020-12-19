@@ -79,6 +79,8 @@ class FacultyController extends HomeController
         }
 
         $faculty->name = $request->name;
+        $faculty->name_en = $request->name_en;
+        $faculty->name_uz = $request->name_uz;
         $faculty->save();
         return redirect()->back();
     }
@@ -150,6 +152,8 @@ class FacultyController extends HomeController
         }
 
         $faculty->name = $request->name;
+        $faculty->name_en = $request->name_en;
+        $faculty->name_uz = $request->name_uz;
         $faculty->update();
         return redirect()->back();
     }

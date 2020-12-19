@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbd8974c-f952-43be-aab7-d14e1b783461" name="Default Changelist" comment="" />
+    <list default="true" id="dbd8974c-f952-43be-aab7-d14e1b783461" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CountryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CountryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/FacultyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/FacultyController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/GalleryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/GalleryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProgramTypesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ProgramTypesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/TourismController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/TourismController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/TourismPagesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/TourismPagesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Faculty.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Faculty.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Place.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Place.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ProgramTypes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/ProgramTypes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Region.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Region.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Tourism.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Tourism.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/afiles/ascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/afiles/ascript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/country/14_12_2020_101205346.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/09_12_2020_141236782.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/uz/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/uz/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/uz/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/uz/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/index_faculty.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/index_faculty.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/index_gallery.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/index_gallery.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/index_tourism.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/index_tourism.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/index_tourism_pages.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/index_tourism_pages.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/index_types.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/index_types.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/global_tracks.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/global_tracks.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/mob_menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mob_menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/region_content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/region_content.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/tourism_banner.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tourism_banner.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/tourism_content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tourism_content.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/university_content.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/university_content.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +49,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -126,6 +168,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1kuHEzrIQlIzzpbZBFdZQ6iMEHc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -138,7 +181,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.env" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
@@ -185,7 +228,19 @@
       <workItem from="1607938727776" duration="139000" />
       <workItem from="1607941890033" duration="17000" />
       <workItem from="1607950902857" duration="812000" />
-      <workItem from="1607951723670" duration="4796000" />
+      <workItem from="1607951723670" duration="14252000" />
+      <workItem from="1608005991118" duration="479000" />
+      <workItem from="1608006692426" duration="112000" />
+      <workItem from="1608007055453" duration="580000" />
+      <workItem from="1608008669577" duration="110000" />
+      <workItem from="1608024922194" duration="16000" />
+      <workItem from="1608053706707" duration="13378000" />
+      <workItem from="1608137259868" duration="6758000" />
+      <workItem from="1608184675191" duration="632000" />
+      <workItem from="1608198177921" duration="13000" />
+      <workItem from="1608200678655" duration="4000" />
+      <workItem from="1608206432596" duration="5074000" />
+      <workItem from="1608269589459" duration="14601000" />
     </task>
     <servers />
   </component>
@@ -196,11 +251,11 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="22" key="#Deployment" timestamp="1607963801631">
+    <state x="275" y="22" key="#Deployment" timestamp="1608209201737">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="22" key="#Deployment/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1607950926184" />
-    <state x="275" y="22" key="#Deployment/0.0.1366.728@0.0.1366.728" timestamp="1607963801631" />
+    <state x="275" y="22" key="#Deployment/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1608209201737" />
+    <state x="275" y="22" key="#Deployment/0.0.1366.728@0.0.1366.728" timestamp="1608099416840" />
     <state x="360" y="45" key="#Options" timestamp="1607962545441">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -221,20 +276,29 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1606580547115" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1607963797125">
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1608098142860">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1607938859383" />
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1608098142860" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1608145115798">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1608145115798" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1608198189332">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1608198189332" />
     <state x="1829" y="119" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1607516414117" />
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607963797125" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608095105915" />
     <state x="414" y="87" key="NewPhpClassDialog" timestamp="1607197262851">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="414" y="87" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1607197262851" />
-    <state x="1883" y="287" key="NewPhpFileDialog" timestamp="1606715859026">
-      <screen x="1366" y="0" width="1366" height="728" />
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1608096437722">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="1883" y="287" key="NewPhpFileDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1606715859026" />
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1608096437722" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1607962384289">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -254,11 +318,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="553" y="256" key="publish.login/0.0.1366.728@0.0.1366.728" timestamp="1607009416950" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1607963663721">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1608223950020">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1607511684238" />
     <state x="1712" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1607515236890" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1607963663721" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1608223950020" />
   </component>
 </project>
